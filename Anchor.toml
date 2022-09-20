@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+cow_nft = "GBWse4e7P9FHTiVNDEu8kKgsnuftNi3YbqpkpcaYBwUQ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/alessandrobuffoli/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
